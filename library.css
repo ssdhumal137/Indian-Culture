@@ -1,0 +1,358 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+            body{
+                height: 90%;
+                width: 100%;
+            }
+            .header{
+                height: 10%;
+                width: 100%;
+            }
+
+            #logo img{
+                height: 100px;
+                width: 100px;
+                border-radius: 10px;
+            }
+
+            .navbar {
+                height: 100%;
+                width: 100%;
+                justify-content: center;
+                align-items: center;
+                    background-color: rgb(255, 115, 0);
+                    align-items: center;
+                    justify-content: center;      
+            }
+            .navbar ul {
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                list-style: none;
+                padding-top: 20px;
+            margin-bottom: 10px;
+            }
+            .navbar ul li a{
+                text-decoration: none;
+                color: black;
+                font-size: 34px;
+                font-weight: 600;
+                padding: 5px 10px;
+                color: white;
+             
+            }
+            .navbar #search{
+
+                width: 250px;
+                height: 30px;
+                border-radius: 5px;
+                font-size: 20px;
+                font-weight: 500;
+                padding: 5px 10px;
+                background-color: transparent;
+            }
+
+            .navbar .btn{
+                font-size: 20px;
+                padding: 5px 10px;
+                border-radius: 5px;
+            }
+
+            .navbar ul li a:hover{
+                background-color: rgb(38, 183, 228);
+                border-radius: 5px;
+            }
+
+
+            .heading{
+                font-size: 80px;
+                color: rgb(180, 57, 12);
+                text-decoration: underline;
+                margin-top: 30px;
+                
+            }
+
+            .main{
+                height: 90%;
+                width: 100%;
+                background-color: bisque;
+                padding-top: 20px;
+            }
+            
+            #Box div.first{
+                display: flex;
+                background-color: antiquewhite;
+                color: black;
+                list-style-type: none;
+                padding: 0%;
+                margin: 0%;
+
+            } 
+         
+        .first{
+            display: flex;
+            margin-top: 30px;
+            max-width: 80%;
+            margin: auto;
+           
+            border-radius: 20px;
+            padding: 10px 20px;
+            align-items: center;
+            border: 2px solid black; 
+            margin-bottom: 20px;  
+            list-style: none; 
+        }
+          
+            .first .right{
+                max-width: 70%;
+                height: 200px;
+                margin: auto;
+                /* background-color: rgb(255, 196, 0); */
+                padding: 20px 10px;
+                border-radius: 20px;
+                margin-bottom: 20px;
+                font-size: 18px;
+
+            }
+
+            #Box div.second{
+                display: flex;
+                background-color: antiquewhite;
+                color: black;
+                list-style-type: none;
+                padding: 0%;
+                margin: 0%;
+
+            } 
+         
+        .second{
+            display: flex;
+            margin-top: 30px;
+            max-width: 80%;
+            margin: auto;
+            border-radius: 20px;
+            padding: 10px 20px;
+            align-items: center;
+            border: 2px solid black;    
+            margin-bottom: 20px; 
+            list-style: none; 
+        }
+          
+
+            .second .right{
+                max-width: 70%;
+                height: 200px;
+                margin: auto;
+                padding: 20px 10px;
+                border-radius: 20px;
+                margin-bottom: 20px;
+
+                font-size: 18px;
+
+            }
+
+            #Box div.third{
+                display: flex;
+                background-color: antiquewhite;
+                color: black;
+                list-style-type: none;
+                padding: 0%;
+                margin: 0%;
+
+            } 
+         
+        .third{
+            display: flex;
+            margin-top: 30px;
+            max-width: 80%;
+            margin: auto;
+            border-radius: 20px;
+            padding: 10px 20px;
+            align-items: center;
+            border: 2px solid black;  
+            margin-bottom: 20px;  
+            list-style: none;  
+        }
+          
+            .third .right{
+                max-width: 70%;
+                height: 200px;
+                margin: auto;
+                padding: 20px 10px;
+                border-radius: 20px;
+                margin-bottom: 20px;
+                font-size: 18px;
+
+            }
+
+
+            #Box div.dropDown{
+                display: flex;
+                background-color: antiquewhite;
+                color: black;
+                list-style-type: none;
+                padding: 0%;
+                margin: 0%;
+
+            } 
+         
+        .dropDown{
+            display: flex;
+            margin-top: 30px;
+            max-width: 80%;
+            margin: auto;
+            border-radius: 20px;
+            padding: 10px 20px;
+            align-items: center;
+            border: 2px solid black;  
+            margin-bottom: 20px;   
+        }
+            
+            .veda .right{
+                max-width: 70%;
+                height: 200px;
+                margin: auto;
+                padding: 20px 10px;
+                border-radius: 20px;
+                margin-bottom: 20px;
+                font-size: 18px;
+
+            }
+
+
+            .yajurveda.first{
+                display: flex;
+                background-color: antiquewhite;
+                color: black;
+                list-style-type: none;
+                padding: 0%;
+                margin: 0%;
+
+            } 
+         
+        .yajurveda{
+            display: flex;
+            margin-top: 30px;
+            max-width: 80%;
+            margin: auto;
+            border-radius: 20px;
+            padding: 10px 20px;
+            align-items: center;
+            border: 2px solid black; 
+            margin-bottom: 20px;    
+        }
+
+            .yajurveda .right{
+                max-width: 70%;
+                height: 200px;
+                margin: auto;
+                padding: 20px 10px;
+                border-radius: 20px;
+                margin-bottom: 20px;
+                font-size: 18px;
+
+            }
+
+            .Athhrvveda.first{
+                display: flex;
+                background-color: antiquewhite;
+                color: black;
+                list-style-type: none;
+                padding: 0%;
+                margin: 0%;
+
+            } 
+         
+        .Athhrvveda{
+            display: flex;
+            margin-top: 30px;
+            max-width: 80%;
+            margin: auto;
+            border-radius: 20px;
+            padding: 10px 20px;
+            align-items: center;
+            border: 2px solid black;  
+            margin-bottom: 20px;   
+        }
+
+            .Athhrvveda .right{
+                max-width: 70%;
+                height: 200px;
+                margin: auto;
+                padding: 20px 10px;
+                border-radius: 20px;
+                margin-bottom: 20px;
+                font-size: 18px;
+
+            }
+
+            .samveda.first{
+                display: flex;
+                background-color: antiquewhite;
+                color: black;
+                list-style-type: none;
+                padding: 0%;
+                margin: 0%;
+
+            } 
+         
+        .samveda{
+            display: flex;
+            margin-top: 30px;
+            max-width: 80%;
+            margin: auto;
+            border-radius: 20px;
+            padding: 10px 20px;
+            align-items: center;
+            border: 2px solid black; 
+            margin-bottom: 20px;    
+        }
+
+            .samveda .right{
+                max-width: 70%;
+                height: 200px;
+                margin: auto;
+                padding: 20px 10px;
+                border-radius: 20px;
+                margin-bottom: 20px;
+                font-size: 18px;
+
+            }
+
+            .Rigveda.first{
+                display: flex;
+                background-color: antiquewhite;
+                color: black;
+                list-style-type: none;
+                padding: 0%;
+                margin: 0%;
+
+            } 
+         
+        .Rigveda{
+            display: flex;
+            margin-top: 30px;
+            max-width: 80%;
+            margin: auto;
+            border-radius: 20px;
+            padding: 10px 20px;
+            align-items: center;
+            border: 2px solid black;  
+            margin-bottom: 20px;   
+        }
+
+            .Rigveda .right{
+                max-width: 70%;
+                height: 200px;
+                margin: auto;
+                padding: 20px 10px;
+                border-radius: 20px;
+                margin-bottom: 20px;
+                font-size: 18px;
+
+            }
+         

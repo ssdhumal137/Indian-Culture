@@ -1,0 +1,312 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+            body{
+                height: 90%;
+                width: 100%;
+            }
+
+            #logo img{
+                height: 100px;
+                width: 100px;
+                border-radius: 10px;
+            }
+            .navbar {
+                   background-image: url(krushna-arjun.jpg);
+                height: 800px;
+                width: 100%;
+                justify-content: center;
+                align-items: center;
+                    background-color: orangered;
+                    align-items: center;
+                    justify-content: center;    
+            }
+            .navbar ul {
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                list-style: none;
+                padding-top: 20px;
+            margin-bottom: 10px;
+            }
+            .navbar ul li a{
+                text-decoration: none;
+                color: black;
+                font-size: 34px;
+                font-weight: 600;
+                padding: 5px 10px;
+                color: white;
+             
+            }
+            .navbar #search{
+
+                width: 250px;
+                height: 30px;
+                border-radius: 5px;
+                font-size: 20px;
+                font-weight: 500;
+                padding: 5px 10px;
+                background-color: transparent;
+            }
+
+            .navbar .btn{
+                font-size: 20px;
+                padding: 5px 10px;
+                border-radius: 5px;
+            }
+
+            .navbar ul li a:hover{
+                background-color: rgb(38, 183, 228);
+                border-radius: 5px;
+            }
+            .content{
+                background-color: rgb(204, 183, 137);
+            }
+
+
+            .heading{
+                font-size: 80px;
+                color: rgb(248, 78, 11);
+                text-decoration: underline;
+                margin-top: 30px;
+                
+            }
+
+            .info{
+                margin-top: 10px;
+                text-align: center;
+                background-color: black;
+                color: rgb(150, 240, 247);
+                padding: 20px;
+                font-size: 18px;
+                margin-bottom: 20px;
+            }
+
+            .religion{
+                max-width: 50%;
+                height: 200px;
+                margin: auto;
+                background-color: rgb(197, 83, 83);
+                padding: 20px 10px;
+                border-radius: 20px;
+                margin-bottom: 20px;
+
+            }
+            .religion h2{
+                text-align: center;
+                color: white;
+                font-size: 40px;
+            }
+            .religion p{
+                text-align: center;
+                font-size: 25px;
+            }
+
+            .Festival{
+                max-width: 50%;
+                height: 200px;
+                margin: auto;
+                background-color: rgb(197, 83, 83);
+                padding: 20px 10px;
+                border-radius: 20px;
+                margin-bottom: 20px;
+
+            }
+            .Festival h2{
+                text-align: center;
+                color: white;
+                font-size: 40px;
+            }
+            .Festival p{
+                text-align: center;
+                font-size: 25px;
+            }
+
+            .Sprituality{
+                max-width: 50%;
+                height: 200px;
+                margin: auto;
+                background-color: rgb(197, 83, 83);
+                padding: 20px 10px;
+                border-radius: 20px;
+                margin-bottom: 20px;
+
+            }
+            .Sprituality h2{
+                text-align: center;
+                color: white;
+                font-size: 40px;
+            }
+            .Sprituality p{
+                text-align: center;
+                font-size: 25px;
+            }
+
+            .Cusini{
+                max-width: 50%;
+                height: 200px;
+                margin: auto;
+                background-color: rgb(197, 83, 83);
+                padding: 20px 10px;
+                border-radius: 20px;
+                margin-bottom: 20px;
+
+            }
+            .Cusini h2{
+                text-align: center;
+                color: white;
+                font-size: 40px;
+            }
+            .Cusini p{
+                text-align: center;
+                font-size: 25px;
+            }
+
+            .Arts{
+                max-width: 50%;
+                height: 200px;
+                margin: auto;
+                background-color: rgb(197, 83, 83);
+                padding: 20px 10px;
+                border-radius: 20px;
+                margin-bottom: 20px;
+
+            }
+            .Arts h2{
+                text-align: center;
+                color: white;
+                font-size: 40px;
+            }
+            .Arts p{
+                text-align: center;
+                font-size: 25px;
+            }
+
+            .Architecture{
+                max-width: 50%;
+                height: 200px;
+                margin: auto;
+                background-color: rgb(197, 83, 83);
+                padding: 20px 10px;
+                border-radius: 20px;
+                margin-bottom: 20px;
+
+            }
+            .Architecture h2{
+                text-align: center;
+                color: white;
+                font-size: 40px;
+            }
+            .Architecture p{
+                text-align: center;
+                font-size: 25px;
+            }
+
+
+            .Family{
+                max-width: 50%;
+                height: 200px;
+                margin: auto;
+                background-color: rgb(197, 83, 83);
+                padding: 20px 10px;
+                border-radius: 20px;
+                margin-bottom: 20px;
+
+            }
+            .Family h2{
+                text-align: center;
+                color: white;
+                font-size: 40px;
+            }
+            .Family p{
+                text-align: center;
+                font-size: 25px;
+            }
+
+
+            .language{
+                max-width: 50%;
+                height: 200px;
+                margin: auto;
+                background-color: rgb(197, 83, 83);
+                padding: 20px 10px;
+                border-radius: 20px;
+                margin-bottom: 20px;
+
+            }
+            .language h2{
+                text-align: center;
+                color: white;
+                font-size: 40px;
+            }
+            .language p{
+                text-align: center;
+                font-size: 25px;
+            }
+
+
+            .philosophy{
+                max-width: 50%;
+                height: 200px;
+                margin: auto;
+                background-color: rgb(197, 83, 83);
+                padding: 20px 10px;
+                border-radius: 20px;
+                margin-bottom: 20px;
+
+            }
+            .philosophy h2{
+                text-align: center;
+                color: white;
+                font-size: 40px;
+            }
+            .philosophy p{
+                text-align: center;
+                font-size: 25px;
+            }
+
+
+
+            .Modern{
+                max-width: 50%;
+                height: 200px;
+                margin: auto;
+                background-color: rgb(197, 83, 83);
+                padding: 20px 10px;
+                border-radius: 20px;
+                margin-bottom: 20px;
+
+            }
+            .Modern h2{
+                text-align: center;
+                color: white;
+                font-size: 40px;
+            }
+            .Modern p{
+                text-align: center;
+                font-size: 25px;
+            }
+
+            .life{
+                max-width: 50%;
+                height: 200px;
+                margin: auto;
+                background-color: rgb(197, 83, 83);
+                padding: 20px 10px;
+                border-radius: 20px;
+                margin-bottom: 20px;
+
+            }
+            .life h2{
+                text-align: center;
+                color: white;
+                font-size: 40px;
+            }
+            .life p{
+                text-align: center;
+                font-size: 25px;
+            }
+            
